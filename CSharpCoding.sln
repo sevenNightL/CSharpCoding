@@ -27,7 +27,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDb", "MongoDb", "{E44E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo1", "demo1", "{EC95B43D-EF9A-46F8-BF5C-E63BECFF4F92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertMongo", "MongoDb\demo1\InsertMongo\InsertMongo\InsertMongo.csproj", "{A29909CB-A1BE-48CB-9803-3CB54E153F9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertMongo", "MongoDb\demo1\InsertMongo\InsertMongo\InsertMongo.csproj", "{A29909CB-A1BE-48CB-9803-3CB54E153F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68E4A78F-C887-4A2D-AB9E-91CDBD89C8D8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdoNet", "AdoNet", "{7AB56E06-773E-49C2-AD77-AF3C4B34F48C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbProviderFactoryDemo", "DbProviderFactoryDemo", "{CF7FA74F-7267-4E31-82D7-ADAA5498462B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbProviderFactoryDemo", "AdoNet\DbProviderFactoryDemo\DbProviderFactoryDemo\DbProviderFactoryDemo.csproj", "{A0D254FE-E60C-4864-8EA3-62B6352064F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +70,10 @@ Global
 		{A29909CB-A1BE-48CB-9803-3CB54E153F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A29909CB-A1BE-48CB-9803-3CB54E153F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A29909CB-A1BE-48CB-9803-3CB54E153F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D254FE-E60C-4864-8EA3-62B6352064F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D254FE-E60C-4864-8EA3-62B6352064F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D254FE-E60C-4864-8EA3-62B6352064F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D254FE-E60C-4864-8EA3-62B6352064F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +89,8 @@ Global
 		{6EC3F9DF-BAC8-4396-812E-5EBCC1848C33} = {FB1613A2-9BE0-4304-9F51-5557B036CB83}
 		{EC95B43D-EF9A-46F8-BF5C-E63BECFF4F92} = {E44E3FDA-EC07-43DD-84FD-56D8F74BB873}
 		{A29909CB-A1BE-48CB-9803-3CB54E153F9A} = {EC95B43D-EF9A-46F8-BF5C-E63BECFF4F92}
+		{CF7FA74F-7267-4E31-82D7-ADAA5498462B} = {7AB56E06-773E-49C2-AD77-AF3C4B34F48C}
+		{A0D254FE-E60C-4864-8EA3-62B6352064F9} = {CF7FA74F-7267-4E31-82D7-ADAA5498462B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AEA417B-DDEF-4AD6-B497-27A2CA4F64AB}
