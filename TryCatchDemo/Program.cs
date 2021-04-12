@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Threading;
 
 namespace TryCatchDemo
 {
     class Program
     {
+        private static  readonly ReaderWriterLockSlim _lock = new ReaderWriterLockSlim();
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -15,6 +17,7 @@ namespace TryCatchDemo
 
         static void Test()
         {
+            _lock.EnterReadLock();
             try
             {
                 if (true)
@@ -28,10 +31,11 @@ namespace TryCatchDemo
             {
 
                 Console.WriteLine("finally1 executed");
+                _lock.ExitReadLock();
                 Console.ReadLine();
             }
 
-
+            _lock.EnterWriteLock();
 
             try
             {
@@ -41,6 +45,7 @@ namespace TryCatchDemo
             {
 
                 Console.WriteLine("finally2 executed");
+                _lock.ExitWriteLock();
                 Console.ReadLine();;
             }
         }
