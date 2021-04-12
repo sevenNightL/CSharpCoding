@@ -6,12 +6,19 @@ namespace DbProviderFactoryDemo
 {
     class Program
     {
-        public static DbProviderFactory dataFactory =
-DbProviderFactories.GetFactory(
-ConfigurationManager.AppSettings["provider"]);
+        public static DbProviderFactory dataFactory = DbProviderFactories.GetFactory(ConfigurationManager.AppSettings["provider"]);
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
