@@ -7,7 +7,7 @@
 I will code table of contents**;
 
 - [**DesignPattern**](https://docs.abp.io/en/abp/latest/Modules/Account): It has 23 pattern of DesignPattern.
-- * [EventBus](https://docs.abp.io/en/abp/latest/Modules/Identity)**: Now have't describle.
+-   [EventBus](https://docs.abp.io/en/abp/latest/Modules/Identity)**: Now have't describle.
 - [**Linq**](https://docs.abp.io/en/abp/latest/Modules/IdentityServer): Now have't describle.
 - [**MongoDb**](https://docs.abp.io/en/abp/latest/Modules/Tenant-Management): Now have't describle.
 
