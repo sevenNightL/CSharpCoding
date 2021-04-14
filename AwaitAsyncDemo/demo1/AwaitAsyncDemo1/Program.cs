@@ -9,7 +9,7 @@ namespace AwaitAsyncDemo1
     {
         static async Task  Main(string[] args)
         {
-            Coffee cup = PourCoffee();
+            Coffee cup =  PourCoffee();
             Console.WriteLine("coffee is ready");
 
             Task<Egg> eggTask = FryEggsAsync(2);
