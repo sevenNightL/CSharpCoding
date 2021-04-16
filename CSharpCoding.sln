@@ -88,6 +88,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo2", "demo2", "{1428B49D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryCacheDemo", "Caching\demo2\MemoryCacheDemo\MemoryCacheDemo.csproj", "{EB56394F-A246-46E5-9C0E-F3E5D5AD4637}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticsearchDemo", "Elasticsearch\demo1\ElasticsearchDemo\ElasticsearchDemo.csproj", "{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,6 +164,10 @@ Global
 		{EB56394F-A246-46E5-9C0E-F3E5D5AD4637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB56394F-A246-46E5-9C0E-F3E5D5AD4637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB56394F-A246-46E5-9C0E-F3E5D5AD4637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,6 +203,7 @@ Global
 		{F6001599-8AD0-4EC5-9A64-7E3CA3761BF8} = {B4AD1264-875B-41A0-93DD-C79EEFD20FAF}
 		{1428B49D-6033-498B-8E96-ECF3EE59EF7E} = {7BD7C9B9-5241-4D27-9E3C-1C0A4E1EC226}
 		{EB56394F-A246-46E5-9C0E-F3E5D5AD4637} = {1428B49D-6033-498B-8E96-ECF3EE59EF7E}
+		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24} = {F7349128-94AB-4B6C-A62F-32B473121119}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AEA417B-DDEF-4AD6-B497-27A2CA4F64AB}
