@@ -4,7 +4,7 @@
 
 ### Table of Contents
 
-I will code table of contents**;
+the table of contents will be coded;
 
 - [**Middleware**](http://localhost):It is a prectice 
 
