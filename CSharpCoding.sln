@@ -56,7 +56,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo1", "demo1", "{A020A51C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwaitAsyncDemo1", "AwaitAsyncDemo\demo1\AwaitAsyncDemo1\AwaitAsyncDemo1.csproj", "{C193C328-E088-4F82-9E33-1B33DB2FF9A3}"
 EndProject
-<<<<<<< Updated upstream
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiddlewareAndDI", "MiddlewareAndDI", "{317DE051-6C84-4BA9-A471-7B6FCD767D53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo1", "demo1", "{C52DCB37-D1E8-4C52-8E67-B772B4FB2152}"
@@ -89,22 +88,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo2", "demo2", "{1428B49D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCacheDemo", "Caching\demo2\MemoryCacheDemo\MemoryCacheDemo.csproj", "{EB56394F-A246-46E5-9C0E-F3E5D5AD4637}"
 EndProject
-<<<<<<< Updated upstream
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticsearchDemo", "Elasticsearch\demo1\ElasticsearchDemo\ElasticsearchDemo.csproj", "{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{719D3608-A099-4B1F-9A1B-42207A8C4150}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{C6583D93-6537-44E3-BD73-30AF5AB50101}"
->>>>>>> Stashed changes
-=======
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticsearchDemo", "Elasticsearch\demo1\ElasticsearchDemo\ElasticsearchDemo.csproj", "{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{719D3608-A099-4B1F-9A1B-42207A8C4150}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{C6583D93-6537-44E3-BD73-30AF5AB50101}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redis", "Redis", "{5920E62F-D6C3-4D99-B185-2907569614B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo1", "demo1", "{93D434F4-CC54-4900-A3FF-FFB1BEABA2EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisDemo", "Redis\demo1\RedisDemo\RedisDemo.csproj", "{A86E5FA5-AD49-452E-8812-B4464D6B5969}"
->>>>>>> Stashed changes
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisDemo", "Redis\demo1\RedisDemo\RedisDemo.csproj", "{A86E5FA5-AD49-452E-8812-B4464D6B5969}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,7 +146,6 @@ Global
 		{C193C328-E088-4F82-9E33-1B33DB2FF9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C193C328-E088-4F82-9E33-1B33DB2FF9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C193C328-E088-4F82-9E33-1B33DB2FF9A3}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< Updated upstream
 		{E47AF140-7E39-4DD8-A683-E0A3F97322E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E47AF140-7E39-4DD8-A683-E0A3F97322E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E47AF140-7E39-4DD8-A683-E0A3F97322E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -185,8 +178,6 @@ Global
 		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< Updated upstream
-=======
 		{719D3608-A099-4B1F-9A1B-42207A8C4150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{719D3608-A099-4B1F-9A1B-42207A8C4150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{719D3608-A099-4B1F-9A1B-42207A8C4150}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -195,13 +186,10 @@ Global
 		{C6583D93-6537-44E3-BD73-30AF5AB50101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6583D93-6537-44E3-BD73-30AF5AB50101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6583D93-6537-44E3-BD73-30AF5AB50101}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> Stashed changes
-=======
 		{A86E5FA5-AD49-452E-8812-B4464D6B5969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A86E5FA5-AD49-452E-8812-B4464D6B5969}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A86E5FA5-AD49-452E-8812-B4464D6B5969}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A86E5FA5-AD49-452E-8812-B4464D6B5969}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -224,7 +212,6 @@ Global
 		{15E3286E-68BE-4F37-A777-9E980AA667B2} = {E54FE755-9CCB-45C1-AD7A-868A7153447F}
 		{A020A51C-D039-4122-A97E-F4B86CB815D1} = {3F660A3F-91BA-4D82-B8BD-4D14C06ADEB9}
 		{C193C328-E088-4F82-9E33-1B33DB2FF9A3} = {A020A51C-D039-4122-A97E-F4B86CB815D1}
-<<<<<<< Updated upstream
 		{C52DCB37-D1E8-4C52-8E67-B772B4FB2152} = {317DE051-6C84-4BA9-A471-7B6FCD767D53}
 		{E47AF140-7E39-4DD8-A683-E0A3F97322E8} = {C52DCB37-D1E8-4C52-8E67-B772B4FB2152}
 		{F7349128-94AB-4B6C-A62F-32B473121119} = {887DA95B-2821-470B-B892-0944EDCF119A}
@@ -239,15 +226,10 @@ Global
 		{1428B49D-6033-498B-8E96-ECF3EE59EF7E} = {7BD7C9B9-5241-4D27-9E3C-1C0A4E1EC226}
 		{EB56394F-A246-46E5-9C0E-F3E5D5AD4637} = {1428B49D-6033-498B-8E96-ECF3EE59EF7E}
 		{D22042D4-C01B-4C2A-8FCC-28F5E70F4A24} = {F7349128-94AB-4B6C-A62F-32B473121119}
-<<<<<<< Updated upstream
-=======
 		{719D3608-A099-4B1F-9A1B-42207A8C4150} = {C686B329-FB8F-44F8-B94F-4D7D9BF286F3}
 		{C6583D93-6537-44E3-BD73-30AF5AB50101} = {C686B329-FB8F-44F8-B94F-4D7D9BF286F3}
->>>>>>> Stashed changes
-=======
 		{93D434F4-CC54-4900-A3FF-FFB1BEABA2EC} = {5920E62F-D6C3-4D99-B185-2907569614B3}
 		{A86E5FA5-AD49-452E-8812-B4464D6B5969} = {93D434F4-CC54-4900-A3FF-FFB1BEABA2EC}
->>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AEA417B-DDEF-4AD6-B497-27A2CA4F64AB}
