@@ -58,7 +58,10 @@ namespace ResponseCacheSample
                 await next();
             });
 
-               app.UseStaticFiles();
+            var dictionary = new Dictionary<string, string>();
+            dictionary.Add("amount", "88.66");
+            var Amount = Convert.ToDecimal(GetValue(dictionary, "amount"));
+            app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
 
@@ -75,6 +78,15 @@ namespace ResponseCacheSample
             //        await context.Response.WriteAsync("Hello World!");
             //    });
             //});
+
+           
+        }
+
+        string GetValue(Dictionary<string, string> dictionary, string key)
+        {
+            return dictionary.TryGetValue(key, out var transactionOrderNo)
+                ? transactionOrderNo
+                : "";
         }
     }
 }

@@ -9,17 +9,11 @@ namespace ElasticsearchDemoOne
         {
             //var client = new ElasticClient();
             var settings = new ConnectionSettings(new Uri("http://localhost:9200"))
-                .DefaultIndex("people");
+                .DefaultIndex("megacorp");
             var client = new ElasticClient(settings);
 
-
-            var person = new Person
-            {
-                Id = 1,
-                FirstName = "Marting",
-                LastName = "Laarman"
-            };
-            var indexResponse = client.IndexDocument(person);
+            var result = client.Search<Person>();
+            var result1 = client.Search<Person>(x => x.Query(x1 => x1.Bool(x2 => x2.MustNot(x3 => x3.Match(x4=>x4.Field(f=>f.interests).Query("music"))))));
            // var asyncIndexResponse = await client.IndexDocumentAsync(person);
             Console.WriteLine("Hello World!");
         }

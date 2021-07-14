@@ -11,7 +11,7 @@ namespace ElasticsearchDemoOne.common
         {
             var searchResponse = elasticClient.Search<Person>(s => s.From(0)
               .Size(10)
-              .Query(q => q.Match(m => m.Field(f => f.FirstName).Query("Martijn"))));
+              .Query(q => q.Match(m => m.Field(f => f.first_name).Query("Martijn"))));
 
             var people = searchResponse.Documents;
         }
